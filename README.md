@@ -31,7 +31,7 @@ Docker部署Emby请查看补充
 
 ![image-20250506211643363](https://github.com/AlanZhai/EmbyCrack_Docker/blob/main/pic/681a0bb8ca3a4.png)
 
-#### 第二步：获取key值并更新emby/emby.conf文件
+#### 第二步：获取key值并更新config/emby.conf文件
 
 ```
 # 需要有python运行环境
