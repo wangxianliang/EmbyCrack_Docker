@@ -19,7 +19,7 @@ Docker部署Emby请查看补充
 
 ## 3.启动Nginx反向代理
 
-### Emby v4.9.0.33及之后版本（感谢[potatoru](https://github.com/potatoruv)提供的方案）
+### Emby v4.9.0.33及之后版本（感谢[@potatoru](https://github.com/potatoruv)提供的方案）
 
 #### 第一步：获取ServerID
 
