@@ -25,11 +25,11 @@ Docker部署Emby请查看补充
 
 ​	方法一：通过日志获取，打开emby控制台，点击日志，下载embyserver.txt，查找serverID即可获取
 
-![image-20250506211553008](pic\681a0b86693c2.png)
+![image-20250506211553008](pic/681a0b86693c2.png)
 
 ​	方法二：打开Emby配置文件夹，data目录下的device.txt文件获取
 
-![image-20250506211643363](pic\681a0bb8ca3a4.png)
+![image-20250506211643363](pic/681a0bb8ca3a4.png)
 
 #### 第二步：获取key值并更新emby/emby.conf文件
 
@@ -42,7 +42,7 @@ python key.py
 # 输入第一步获取到的ServerID，提示
 ```
 
-![image-20250506212327851](pic\681a0d4d636cd.png)
+![image-20250506212327851](pic/681a0d4d636cd.png)
 
 #### 第三步：启动nginx反代
 
