@@ -28,7 +28,7 @@ docker build -t embycrack:v1 .
 
 ```
 services:
-  dockge:
+  embycrack:
     image: embycrack:v1
     container_name: embycrack
     restart: always
@@ -39,7 +39,7 @@ services:
 使用docker部署emby建议使用下面配置
 ```
 services:
-  dockge:
+  embycrack:
     image: embycrack:v1
     container_name: mb3admin.com  # 容器名称使用mb3admin.com
     restart: always
