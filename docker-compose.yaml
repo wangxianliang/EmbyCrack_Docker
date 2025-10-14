@@ -1,10 +1,12 @@
 services:
-  nginx:
-    image: nginx:latest
-    container_name: nginx_embycrack
-    ports:
-      - "443:443"
-    # - "80:80"
-    volumes:
-      - ./config:/etc/nginx
+  dockge:
+    image: embycrack:latest
+    container_name: mb3admin.com
     restart: always
+    ports:
+      - 443:443
+    networks:
+      - ipv4_ipv6
+networks:
+  ipv4_ipv6:
+    external: true
