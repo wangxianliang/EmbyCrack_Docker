@@ -1,6 +1,6 @@
 # EmbyCrack_Docker
 
-利用 Python 反代理实现 emby 高级会员解锁，支持Emby4.9 +
+利用 Python 实现 emby 高级会员解锁，支持Emby4.9 +
 
 使用nginx解锁请查看分支：[nginx](https://github.com/AlanZhai/EmbyCrack_Docker/tree/nginx)
 
